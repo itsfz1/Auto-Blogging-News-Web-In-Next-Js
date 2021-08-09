@@ -1,3 +1,10 @@
+# Auto Blogging News Web In Next Js
+
+![image](https://user-images.githubusercontent.com/55094660/128650185-d5193788-a1a0-4036-8bd7-0eb0c8930daf.png)
+![image](https://user-images.githubusercontent.com/55094660/128650195-71154866-f9e6-4d96-8868-47ff48720e45.png)
+
+To work with different api end points and want to add more filters please read code and comments in component/filter and pages/news/[...parma].js
+</hr>
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
