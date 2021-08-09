@@ -1,0 +1,92 @@
+.filter {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-top: 40px;
+    padding: 0 2rem 2rem 2rem;
+}
+.title {
+    text-align: center;
+    font-size: 42px;
+}
+.title span{
+    color: red;
+}
+.filter select {
+    width: 120px;
+    margin-left: 10px;
+    margin-right: 10px;
+    outline: none;
+    font-weight: bolder;
+    border-radius: 5px;
+}
+.filter button {
+    border: none;
+    background-color: red;
+    margin-right: 10px;
+    padding: 10px;
+    border-radius: 5px;
+    font-size: 16px;
+    color: white;
+    font-weight: bold;
+}
+.selectlabel1 {
+    margin-top: -30px;
+    margin-right: -5.6rem;
+}
+.selectlabel2 {
+    margin-top: -30px;
+    margin-right: -6.4rem;
+}
+.selectlabel3 {
+    margin-top: -30px;
+    margin-right: -6.2rem;
+
+}
+.filter button:hover {
+    color: black;
+    cursor: pointer;
+}
+@media only screen and (min-width : 500px) and (max-width: 628px) {
+
+.filter button {
+    margin-top: 1rem;
+}
+.filter select {
+    height: 38px;
+}
+}
+@media only screen and (min-width : 320px) and (max-width: 440px) {
+
+.filter {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+.filter button {
+    margin-top: 1rem;
+}
+.filter select {
+    height: 38px;
+    margin: 1rem;
+    width: 130px;
+}
+.selectlabel1 {
+    margin-top: -20px;
+    margin-right: 50px;
+}
+.selectlabel2 {
+    margin-top: -20px;
+    margin-right: 45px;
+}
+.selectlabel3 {
+    margin-top: -20px;
+    margin-right: 50px;
+
+}
+}

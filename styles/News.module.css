@@ -1,0 +1,47 @@
+.main {
+  display: flex;
+  margin-top: 50px;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.post {
+  width: 700px;
+  margin-bottom: 25px;
+  padding-bottom: 25px;
+  border-bottom: 1px solid black;
+  
+}
+.post img {
+  width: 100%;
+}
+.post h1 {
+  font-size: 16px;
+  cursor: pointer;
+  text-align: center;
+}
+.post p {
+  text-align: center;
+}
+.paginator {
+  font-weight: 600;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.paginator div {
+  margin: 25px;
+}
+.paginator .active {
+  cursor: pointer;
+}
+.paginator .disabled {
+  cursor: not-allowed;
+  color: rgb(179, 179, 179);
+}
+@media only screen and (max-width : 628px) {
+.post {
+  width: 100%;
+}
+}

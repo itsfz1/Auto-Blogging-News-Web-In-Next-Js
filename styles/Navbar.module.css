@@ -1,0 +1,52 @@
+.main {
+  width: 100%;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.main div {
+  margin: 25px;
+  cursor: pointer;
+  font-weight: 500;
+  font-size: 18px;
+}
+.main div:hover {
+  color: red;
+}
+.line {
+  border-top: 2px dotted red;
+  margin-top: 20px;
+}
+
+@media only screen and (min-width : 500px) and (max-width: 628px){
+.main div {
+  margin: 5px;
+  padding-top: 1rem;
+}
+.main div::after {
+  content: ' /'
+}
+.main div:last-child:after {
+  content: ''
+}
+}
+
+@media only screen and (min-width : 320px) and (max-width: 440px){
+.line {
+ margin-top: 40px;
+}
+.main div {
+  margin: 5px;
+  padding-top: 1rem;
+}
+.main div::after {
+  content: ' /'
+}
+.main div:last-child:after {
+  content: ''
+}
+.main div:last-child{
+ margin-top: -15px;
+}
+}
